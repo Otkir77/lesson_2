@@ -1,0 +1,719 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 34px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    list-style-type: none;
+}
+
+ul li a {
+    width: 81px;
+    height: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham Pro;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 14.36px;
+    text-align: left;
+    color: #22374F;
+    text-decoration: none;
+}
+
+nav button {
+    width: 218px;
+    height: 44px;
+    border: 3px solid #FF7B00;
+    border-radius: 24px;
+    background-color: white;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #FF7B00;
+}
+
+nav button:hover {
+    border: none;
+    background-color: #FF7B00;
+    color: white;
+}
+
+.small_div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn_div {
+    display: flex;
+    padding-top: 58px;
+    align-items: center;
+    gap: 40px;
+}
+
+header {
+    width: 1924px;
+    height: 686px;
+    top: 47px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(0deg, #EEF5FA, #EEF5FA),
+    linear-gradient(273.81deg, #9DCAFF 3.67%, #CBE3FF 36.99%, #EBF5FF 52.84%);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left h2 {
+    width: 584px;
+    height: 128px;
+    top: 211px;
+    left: 358px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    color: #22374F;
+}
+
+.left p {
+    width: 688px;
+    height: 120px;
+    top: 385px;
+    left: 358px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #22374F;
+    padding-top: 46px;
+}
+
+.left button {
+    width: 272px;
+    height: 60px;
+    top: 563px;
+    left: 358px;
+    gap: 0px;
+    border-radius: 50px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    border: 3px solid #FF7B00;
+    border-radius: 24px;
+    background-color: white;
+    color: #FF7B00;
+}
+
+.left button:hover {
+    border: 5px solid white;
+    background-color: #FF7B00;
+    color: white;
+}
+
+.small_div img {
+    width: 58px;
+    height: 69px;
+    top: 559px;
+    left: 670px;
+    gap: 0px;
+    border: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.small_div p {
+    width: 172px;
+    height: 60px;
+    top: 562px;
+    left: 738px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #22374F;
+}
+
+.right img {
+    padding-top: 90px;
+}
+
+.first_ticket {
+    width: 584px;
+    height: 171px;
+    top: 813px;
+    left: 358px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(0deg, #EEF5FA, #EEF5FA),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(245.8deg, #EEF5FA 38.85%, #D2E7F5 97.67%),
+    linear-gradient(0deg, #EBF5FF, #EBF5FF);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+
+.two_ticket {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.two_ticket span p {
+    width: 178px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #3F546C;
+    background-color: white;
+}
+
+.two_ticket h3 {
+    width: 236px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #153152;
+    background-color: wheat;
+}
+
+.big_blue_background {
+    width: 1924px;
+    height: 558px;
+    top: 1063px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #1B83FF;
+    margin-top: 79px;
+}
+
+.big_blue_background h1 {
+    width: 1229px;
+    height: 42px;
+    top: 1133px;
+    left: 356px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: #3C95FF;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.simple_div {
+    width: 402.67px;
+    height: 310px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(51.01deg, #4399FF 0%, #1B83FF 71.42%);
+}
+
+.simple_div h2 {
+    width: 168px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    padding-top: 99px;
+}
+
+.row_2 {
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.simples_father {
+    display: flex;
+    justify-content: center;
+    padding-top: 105px;
+}
+
+.number_div h1 {
+    width: 136px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    color: #FFD699;
+}
+
+.number_div p {
+    width: 272px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #22374F;
+    padding-top: 45px;
+}
+
+.row_3 {
+    display: flex;
+    justify-content: center; 
+    padding-top: 97px;
+}
+
+.runner_bro {
+    width: 1926px;
+    height: 565px;
+    top: 1936px;
+    left: 1925px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #9DCAFF;
+}
+
+.row_4 .right h2 {
+    width: 688px;
+    height: 107px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color: #22374F;
+}
+
+.row_4 .right p {
+    width: 688px;
+    height: 91px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #153152;
+    padding-top: 10px;
+}
+
+.row_4 .right h3 {
+    width: 486px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #153152;
+    padding-top: 25px;
+}
+
+.row_4 .right button {
+    width: 272px;
+    height: 60px;
+    top: 2336px;
+    left: 886px;
+    gap: 0px;
+    border-radius: 50px 0px 0px 0px;
+    opacity: 0px;
+    border: 3px solid #FF7B00;
+    border-radius: 30px;
+    color: white;
+    background-color: #FF7B00;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.row_4 {
+    display: flex;
+    gap: 76px;
+    padding-top: 69px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_4 .right button:hover {
+    border: 5px solid white;
+    background-color: #FF7B00;
+    color: white;
+}
+
+.row_5 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 27px;
+    align-items: center;
+}
+
+.headeache {
+    margin-top: 86px;
+}
+
+.headeache h2 {
+    width: 1210px;
+    height: 65px;
+    top: 2587px;
+    left: 358px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #22374F;
+}
+
+.row_5 .not_card p {
+    width: 168px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #22374F;
+}
+
+.text_box {
+    width: 344px;
+    height: 264px;
+    top: 2679px;
+    left: 1222px;
+    gap: 0px;
+    opacity: 0px;
+    border: 8px solid #FFCA7B;
+}
+
+.text_box h3 {
+    width: 188px;
+    height: 42px;
+    top: 2702px;
+    left: 1254px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #22374F;
+    margin-top: 5px;
+}
+
+.text_box p {
+    width: 278px;
+    height: 99px;
+    top: 2748px;
+    left: 1254px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #22374F;
+    margin: 5px auto;
+}
+
+.headeache_2 h2 {
+    width: 322px;
+    height: 65px;
+    top: 3123px;
+    left: 356px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color: #22374F;
+    margin-left: 425px;
+}
+
+.row_6 .not_card_2 h3 {
+    width: 165px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    padding: 2px 8px;
+    color: #22374F;
+    background-color: #FFCA7B;
+    margin-top: 24px;
+}
+
+.row_6 .not_card_2 p {
+    width: 209.6px;
+    height: 99px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #153152;
+    padding-top: 8px;
+}
+
+.headeache_2 {
+    margin-top: 91px;
+    width: 1948px;
+    height: 585px;
+    top: 3034px;
+    left: -16px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.row_6 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 27px;
+    align-items: center;
+}
+
+.tick_box h2 {
+    width: 699.03px;
+    height: 42px;
+    top: 3657px;
+    left: 358px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #22374F;
+    margin-left: 200px;
+    padding-top: 36px;
+}
+
+.row_7 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.row_7 .right {
+    padding-bottom: 115px;
+}
+
+.notebook {
+    width: 1924px;
+    height: 671px;
+    top: 4574px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #1B83FF;
+}
+
+.notebook h2 {
+    width: 652px;
+    height: 55px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color: white;
+    margin-left: 425px;
+    padding-top: 38px;
+}
+
+.notebook .not_p {
+    width: 584px;
+    height: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+    margin-left: 425px;
+    padding-top: 16px;
+}
+
+.row_8 .left {
+    display: flex;
+    align-items: center;
+}
+
+.row_8 .left h3 {
+    width: 173px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    background-color:#FFCA7B;
+    padding: 6px 8px;
+}
+
+.row_8 .left p {
+    width: 345px;
+    height: 120px;
+    top: 5017px;
+    left: 670px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+}
+
+.row_8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.mini_card img {
+    margin-bottom: -70px;
+}
+
+.last_pictures {
+    margin-top: 93px;
+}
+
+.last_nav {
+    display: flex;
+    justify-content: center;
+    gap: 385px;
+}
+
+.last_nav h2 {
+    width: 652px;
+    height: 42px;
+    top: 5338px;
+    left: 356px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color: #22374F;
+}
+
+.last_nav button {
+    width: 141px;
+    height: 26px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 6px 16px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.row_9 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
